@@ -21,8 +21,8 @@ use { "env": { "es6": true } }. Setting { "env": { "es6": true } } enables ES6 s
 but { "parserOptions": { "ecmaVersion": 6 } } does not enable ES6 globals automatically.
 
 "parserOptions" property. The available options are:
-- ecmaVersion: set to 3, 5 (default), 6, 7, 8, 9, 10, 11, 12, 13, or 14 to specify the version of ECMAScript 
-syntax you want to use. We can also set "latest" to use the most recently supported version.
+- ecmaVersion: set to 3, 5 (default), 6, 7, 8, 9, 10, 11, 12, 13, or 14 to specify the version of 
+ECMAScript syntax you want to use. We can also set "latest" to use the most recently supported version.
 - sourceType:  set to "script" (default) or "module" if your code is in ECMAScript modules.
 ```
 
@@ -50,7 +50,8 @@ This rule enforces consistent use of semicolons.
 
 ### comma-dangle
 ```
-Require or disallow trailing commas. This rule enforces consistent use of trailing commas in object and array literals.
+Require or disallow trailing commas. This rule enforces consistent use of trailing commas in object 
+and array literals.
 ```
 
 ### arrow-body-style
@@ -71,13 +72,15 @@ This rule disallows calls or assignments to methods of the console object.
 
 ### no-unused-vars
 ```
-Disallow unused variables. This rule is aimed at eliminating unused variables, functions, and function parameters.
+Disallow unused variables. This rule is aimed at eliminating unused variables, 
+functions, and function parameters.
 ```
 
 ### prefer-const
 ```
-Require const declarations for variables that are never reassigned after declared. This rule is aimed at flagging variables 
-that are declared using let keyword, but never reassigned after the initial assignment.
+Require const declarations for variables that are never reassigned after declared. 
+This rule is aimed at flagging variables that are declared using let keyword, 
+but never reassigned after the initial assignment.
 ```
 
 ### no-var
