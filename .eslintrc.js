@@ -39,6 +39,18 @@ module.exports = {
     'prefer-arrow-callback': 0,
     'comma-dangle': ['error', 'never'],
     'prefer-const': 'error',
-    'no-var': 'error'
+    'no-var': 'error',
+    'no-case-declarations': 'off',
+    'no-useless-escape': 'error',
+    'space-before-blocks': 'error',
+    'no-else-return': 'error',
+    'spaced-comment': 'warn',
+    'keyword-spacing': 'warn',
+    'no-multiple-empty-lines': 'error',
+    'comma-style': 'warn',
+    'array-bracket-spacing': 'error',
+    'block-spacing': 'error',
+    'comma-spacing': 'error',
+    'no-duplicate-imports': 'error'
   }
 };
